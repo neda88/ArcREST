@@ -15,7 +15,7 @@ gis = GIS()
 
 
 print("ArcGIS Online Org account")    
-gis = GIS("https://www.arcgis.com", "neda.peiravian@jacobsendaniels.com", "Collection70.")
+gis = GIS("https://www.arcgis.com", "username", "password")
 print("Logged in as " + str(gis.properties.user.username))
 
 
